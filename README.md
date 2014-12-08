@@ -3,7 +3,9 @@ ECE382_Lab08
 
 #Prelab
 
-See Flowchart :)
+![alt tag](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/1.%20Photos/Prelab/Flowchart.JPG "Lab08 flowchart")
+
+
 
 **Things to Remember**
 
@@ -41,3 +43,8 @@ while(1){
 }
 
 ```
+
+#Documentation:
+
+##Prelab:
+  none
