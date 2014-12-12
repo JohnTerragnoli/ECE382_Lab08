@@ -65,7 +65,12 @@ Code used to achieve this functionality:
 
 #B Functionality
 
+##Design Process:
 
+1. Started to use the code from Required Functionality.  When I tried to turn right though, it was not turning sharp enough.  I could either create a reaction for when the car get too close to a wall, or just have the car turn quicker in the first place.  I chose to make it turn sharper. 
+2. To make it turn sharper, I had the car pivot instead of just stopping one wheel. One wheel backwards the other one forwards.  When I included this, the car was able to make it through the doors for B Functionality after a couple of tries.  However I noticed another issue. 
+3. I noticed that there were some specific points, namely at the corners, where my car would spaz out and lose control.  I wasn't exactly sure how to fix this problem, so I decided to just speed up the car so that it could push through such points.  This made the car much more reliable, although it does not always made it through without having a mental breakdown every run.  
+4. Once I got the car doing this, it was able to make it throught the maze much more easily, for B Functionality.  
 
 This was achieved on 12/12/14 at 0541.  The video can be seen [here](https://www.youtube.com/watch?v=4BudPom_3LY&feature=youtu.be). 
 
@@ -78,6 +83,14 @@ Code used to achieve this functionality:
 [implementation.c](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/1.%20Code/A_imp.c)  
 
 #A Functionality
+
+##Design Process
+
+1. Honestly, not much was changed from B Functionality.  I used the same code to do A Functionality as I did with B Functionality. Of course, it took a few more trials because the maze was harder.  But I was able to get it through eventually, as seen in the video below.  
+
+I would also like to point out that my car won the completition on accident and I somehow got on the wall of fame.  
+
+
 This was achieved on 12/12/14 at 0644.  This video can be seen [here](https://www.youtube.com/watch?v=EWXs4pQ-Gy8&feature=youtu.be). 
 
 Code used to achieve this functionality:
@@ -93,3 +106,6 @@ Code used to achieve this functionality:
 
 ##Prelab:
   none
+  
+##Actual Lab
+ NONE
