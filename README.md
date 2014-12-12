@@ -102,6 +102,11 @@ Code used to achieve this functionality:
 [implementation.c](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/1.%20Code/A_imp.c)
 
 
+#Pinout
+I know you're anxious for this, and I am sorry to dissapoint: 
+
+![alt tag](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/2.%20Photos/Pinout.JPG "Lab08 pinout")
+
 #Documentation:
 
 ##Prelab:
