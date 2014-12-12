@@ -44,6 +44,9 @@ while(1){
 
 ```
 
+#Required Functionality
+This was achieved on 12/11/14 at 2146.  The video can be seen [here](https://www.youtube.com/watch?v=71__KVbQkKA&feature=youtu.be). 
+
 #Documentation:
 
 ##Prelab:
