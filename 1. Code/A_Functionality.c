@@ -37,19 +37,19 @@ int main(void) {
 	while(1) {
 
 
-//conditions for when to move forward
+		//conditions for when to MOVE FORWARD
 		if(leftSensor()==CLOSE_WALL&&rightSensor()==CLOSE_WALL&&centerSensor()==SPACE){
 				moveForward();
 
 		}
 
-		//conditions for when to pivot left
+		//conditions for when to PIVOT LEFT
 		if(leftSensor()==SPACE&&rightSensor()==CLOSE_WALL&&centerSensor()==CLOSE_WALL){
 			turnLeft();
 			leftOnBackward();
 		}
 
-		//conditions for when to pivot right.
+		//conditions for when to PIVOT RIGHT
 		if(leftSensor()==CLOSE_WALL&&rightSensor()==SPACE&&centerSensor()==CLOSE_WALL){
 			turnRight();
 			rightOnBackward();
