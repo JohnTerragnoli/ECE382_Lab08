@@ -60,8 +60,10 @@ This was achieved on 12/12/14 at 0541.  The video can be seen [here](https://www
 Code used to achieve this functionality:
  
 [Main.c](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/1.%20Code/A_Functionality.c)
+
 [header.h](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/1.%20Code/A_header.hs)
-[implementation.c](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/1.%20Code/A_imp.c).  
+
+[implementation.c](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/1.%20Code/A_imp.c)  
 
 #A Functionality
 This was achieved on 12/12/14 at 0644.  This video can be seen [here](https://www.youtube.com/watch?v=EWXs4pQ-Gy8&feature=youtu.be). 
@@ -69,8 +71,10 @@ This was achieved on 12/12/14 at 0644.  This video can be seen [here](https://ww
 Code used to achieve this functionality:
  
 [Main.c](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/1.%20Code/A_Functionality.c)
+
 [header.h](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/1.%20Code/A_header.hs)
-[implementation.c](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/1.%20Code/A_imp.c).  
+
+[implementation.c](https://raw.githubusercontent.com/JohnTerragnoli/ECE382_Lab08/master/1.%20Code/A_imp.c)
 
 
 #Documentation:
