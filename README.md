@@ -55,6 +55,14 @@ Code used to achieve this functionality:
 
 #B Functionality
 
+##Building Process
+
+1. I began with the code for basic functionality in Lab07.  This code made the LEDs light up when sensors on their respective sides lit up.  This would happen when a certain voltage was provided by the robot sensors.  This voltage was provided in analog (obviously) and it is converted into digital by the MSP430.  These digital representations of the incoming voltage can be used to determine how far away the object is being picked up by the sensor.  
+2. Next, I used my data from A Functionality in Lab07, where I characterized the strength each sensor recieves at certain distances.  I used the "6 inch away" distance, which is about the amount of space on either side of the car when it is riding straight down the middle of the first maze hallway.  I made this voltage the threshold voltage, or a value to be compared to and decide an action.  
+3. Next, I made the sensor methods for left, center, and right from lab07 return char types.  These char types were 0 and 1 for SPACE and WALL respectively.  When the voltage supplied to the MSP430 is above the threshold, that method for that side will respond with a "WALL" or a 1.  Back in the main method, I planned to make if statements using these returned values from the methods to determine which motors to turn on when.  
+4. Next, I created the if statements.  I only made 3, conditions for when to turn left, right, and go straight.  For each if statement I checked all three directions to see if they were "WALL" or "SPACE". For example, if the left side was with a wall and the center was in front of a wall, and the right was with SPACE, then the computer would call the "turnRight()" method.  
+5. After applying these changes, I was able to get Basic Functionality fairly easily.  
+
 This was achieved on 12/12/14 at 0541.  The video can be seen [here](https://www.youtube.com/watch?v=4BudPom_3LY&feature=youtu.be). 
 
 Code used to achieve this functionality:
